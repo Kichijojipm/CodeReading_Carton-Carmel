@@ -69,3 +69,11 @@ CPAN Artifact Repository Manager
 
 ### 基本的な使い方
 
+    $ carmel install Plack@1.0033
+    $ mkdir demo
+    $ cd demo
+    $ echo "requires 'Plack', '== 1.0033';" > cpanfile
+    $ carmel install
+    $ echo 'use Carmel::Setup;use Plack;print $Plack::VERSION."\n";' > demo.pl
+    $ perl demo.pl
+    1.0033
