@@ -58,7 +58,11 @@ CPAN Artifact Repository Manager
 
 ### Carmelのインストール
 
-まだdevelリリースなので、フルパスで指定。
+まだdevelリリースなので`--dev`が必要
+
+    $ cpanm Carmel --dev
+
+もしくはフルパスで指定。
 
     $ cpanm https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Carmel-v0.1.22-TRIAL.tar.gz
     --> Working on https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Carmel-v0.1.22-TRIAL.tar.gz
